@@ -1,2 +1,37 @@
-# Excel temporary
+# Office Files - Temporary & Locks
 ~$*.xls*
+~$*.doc*
+~$*.ppt*
+*.db
+*.accdb
+*.laccdb
+
+# Office autosave & recovery
+**/.~lock.*
+Desktop.ini
+Thumbs.db
+
+# System files
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*.swo
+*~
+
+# IDE & Editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+*.log
+logs/
+*.txt
+
+# OS-specific
+[Dd]esktop.ini
+[Tt]humbs.db
+.env
+.env.local
